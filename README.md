@@ -1,12 +1,12 @@
-# [Name]
-## [Assignment #]
-## [Submission date: MM/DD/YY]
+# Krysta Dennis
+## Lab 4
+## [Submission date: 10/03/2024]
 ## Worked with/sources 
-* example
-* example
+* Referenced Notes
+* Help from instructor
 * example
 * example
 ## Project Quirks/ Things that don't work
-* example
-* example
+* Trouble finding different way without the sum() function
+* Most errors were for forgetting perenthisies 
 * example

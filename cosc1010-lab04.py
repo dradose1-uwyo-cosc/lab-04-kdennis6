@@ -1,9 +1,9 @@
-# Your Name Here
+# Krysta Dennis
 # UWYO COSC 1010
-# Submission Date
-# Lab 03 
-# Lab Section: 
-# Sources, people worked with, help given to: 
+# 3OCT2024
+# Lab 04 
+# Lab Section: 12
+# Sources, people worked with, help given to: Referenced Notes/ Help from instructor
 # your
 # comments
 # here
@@ -101,5 +101,20 @@ min_temps = [
 
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
+sum_min = 0
+sum_max = 0
+temps=[max_temps + min_temps]   
+for temp in range(len(min_temps)) and range(len(max_temps)):
+    sum_min=sum_min+min_temps[temp] 
+    sum_max=sum_max+max_temps[temp]
+print(f"The Minimum Average is {sum_min/len(min_temps)}")
+print(f"The Maximum Average is {sum_max/len(max_temps)}") 
+
+for temp in temps:
+    min_temps.sort()
+print(f"The lowest recorded temperature is {min_temps[0]} ")
+for temp in temps:
+    max_temps.sort()
+print(f"The highest recorded temperature is {max_temps[-1]} ")
 
 
